@@ -12,7 +12,7 @@ jobs:
     - name: Set up Python (latest version)
       uses: actions/setup-python@v4
       with:
-        python-version: 'latest'  # Automatically uses the latest stable version of Python
+        python-version: '3.9'  # Automatically uses the latest stable version of Python
 
     - name: Install PyInstaller
       run: |
